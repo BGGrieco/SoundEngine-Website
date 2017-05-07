@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SoundEngine_Contact</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link href="style/adaptive.css" rel="stylesheet" type="text/css">
+<script src="js/functions.js"></script>
+</head>
+
+<body id="wrapper">
+
+<h1 id="logo">
+	<a href="index.html">
+	    <img src="images/nuLogo.png" style="width: 500px" class="bigLogo">
+	</a>
+</h1>
+
+<h1 id="miniLogo">
+	<a href="index.html">
+	    <img src="images/miniLogo.png" style="width:300px" class="miniLogo">
+	</a>
+</h1>
+
+<div id="externals">
+	<div class="table">
+	        <ul class="ext">
+		    <li><a href="https://www.facebook.com/sound-engineorg-321037917912238/?ref=page_internal" target="_blank"><img class="externalLink" src="images/faceBook.png"></a></li>
+		    <li><a href="https://ie.linkedin.com/in/briangrieco" target="_blank"><img class="externalLink" src="images/linkedIn.png"></a></li>
+		    <li><a href="https://soundcloud.com/brian-grieco" target="_blank"><img class="externalLink" src="images/soundCloud.png"></a></li>
+	    </ul>
+    </div>
+</div>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><div id="x">&times;</div></a>
+  <a href="#about" onclick="closeNav()">Home</a>
+  <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+  <a href="#bio" onclick="closeNav()">Bio</a>
+  <a href="#contact" onclick="closeNav()">Contact</a>
+</div>
+
+<span id="burger" onclick="openNav()">&#9776;</span>
+
+
+<div class="dropDown">
+<p onclick="dropFunction()" class="dropbtn">MENU</p>
+  <div id="myDropdown" class="dropdownContent">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="bio.html">Bio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+<ul class="nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="portfolio.html">Portfolio</a></li>
+  <li><a href="bio.html">Bio</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="unavailable.html">Links</a></li>
+</ul>
+
+<div id="contactInfo">
+	<p>0879753550<br><br>soundengine.org@gmail.com<br><br></p>
+</div>
+
+<div id="contactForm">
+	<form id="questionSubmit" action="action_page.php" method="post">
+    <fieldset>
+	   Ask a question!<br>
+       <br><br>
+       First name:<br>
+       <input type="text" name="firstname" id="firstName">
+       <div class="header">
+           <p id="headerOne"></p>
+           <br><br>
+       </div>
+       Last name:<br>
+       <input type="text" name="lastname">
+       <p></p>
+       <br><br>
+       E-mail:<br>
+       <input type="text" name="email" id="eMail">
+       <div class="header">
+           <p id="headerTwo"></p>
+           <br><br>
+       </div>
+       Confirm e-mail:<br>
+       <input type="text" name="confirm" id="emailConfirm">
+       <div class="header">
+           <p id="headerThree"></p>
+           <br><br>
+       </div>
+       Your message:<br>
+       <textarea></textarea><br><br>
+       <input type="button" value="Send" onclick="fireFunctions()">
+     </fieldset>
+   </form>
+</div>
+
+<div id="footer">
+	<p>Brian Grieco | Tel: 087 9753550 | <a href="mailto:soundengine.org@gmail.com">soundengine.org@gmail.com</a> | <a href="https://www.facebook.com/sound-engineorg-321037917912238/?ref=page_internal" target="_blank">Facebook</a> | <a href="https://ie.linkedin.com/in/briangrieco" target="_blank">LinkedIn</a> | <a href="https://soundcloud.com/brian-grieco" target="_blank">SoundCloud</a></p>
+</div>
+
+</body>
+</html>
